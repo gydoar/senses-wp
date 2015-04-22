@@ -120,6 +120,8 @@ header{
 		letter-spacing: 1px;
 		color: #64476e;
 	}
+
+/* Banner 2 */
 .banner-2{
 	padding-top: 100px;
 	color: #fff;
@@ -136,7 +138,7 @@ header{
 	background-size: cover;
 }
 	.banner-2 h3{
-		letter-spacing: 1px;
+		letter-spacing: 2px;
 		font-weight: 700;
 	}
 	.banner-2 p{
@@ -162,6 +164,7 @@ header{
 	text-align: center;
 	margin-top: 50px;
 	color: #64476e;
+	margin-bottom: 100px;
 }
 .enrollable h3{
 	font-size: 30px;
@@ -170,6 +173,172 @@ header{
 .enrollable h3, .enrollable h3 img{
 	vertical-align: middle;
 }
+
+/* Fin /Banner 2 */
+
+/* BANNER 3 */
+.banner-3{
+	padding-top: 100px;
+	color: #fff;
+	background: url(library/img/bg-3.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 838px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+	.banner-3 h3{
+		letter-spacing: 2px;
+		font-weight: 700;
+	}
+	.banner-3 p{
+		padding: 10px 20px;
+		font-size: 14px;
+		letter-spacing: .5px;
+		font-weight: normal;
+		background-color: rgba(61,25,74,0.8);
+	}
+	.banner-3 li{
+		background-color: rgba(61,25,74,0.8);
+		padding: 7px;
+		font-weight: normal;
+		letter-spacing: .5px;
+	}
+
+/* BANNER 4 */
+.banner-4{
+	padding-top: 100px;
+	color: #fff;
+	background: url(library/img/bg-4.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 838px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+	.banner-4 h3{
+		letter-spacing: 2px;
+		font-weight: 700;
+	}
+	.banner-4 p{
+		padding: 10px 20px;
+		font-size: 14px;
+		letter-spacing: .5px;
+		font-weight: normal;
+		background-color: rgba(61,25,74,0.8);
+	}
+	.banner-4 li{
+		background-color: rgba(61,25,74,0.8);
+		padding: 7px;
+		font-weight: normal;
+		letter-spacing: .5px;
+	}
+
+
+
+/* BANNER 5 */
+.banner-5{
+	padding-top: 100px;
+	color: #fff;
+	background: url(library/img/bg-5.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 838px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+	.banner-5 h3{
+		letter-spacing: 2px;
+		font-weight: 700;
+	}
+	.banner-5 p{
+		padding: 10px 20px;
+		font-size: 14px;
+		letter-spacing: .5px;
+		font-weight: normal;
+		background-color: rgba(61,25,74,0.8);
+	}
+	.banner-5 li{
+		background-color: rgba(61,25,74,0.8);
+		padding: 7px;
+		font-weight: normal;
+		letter-spacing: .5px;
+	}
+
+
+
+
+/* BANNER 6 */
+.banner-6{
+	padding-top: 100px;
+	color: #fff;
+	background: url(library/img/bg-6.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 838px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+	.banner-6 h3{
+		letter-spacing: 2px;
+		font-weight: 700;
+	}
+	.banner-6 p{
+		padding: 10px 20px;
+		font-size: 14px;
+		letter-spacing: .5px;
+		font-weight: normal;
+		background-color: rgba(61,25,74,0.8);
+	}
+	.banner-6 li{
+		background-color: rgba(61,25,74,0.8);
+		padding: 7px;
+		font-weight: normal;
+		letter-spacing: .5px;
+	}
+
+
+.btn__vermas{
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #2c0836; 
+	padding: 10px 30px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	box-shadow: 1px 1px 5px #000000;
+}
+.btn__vermas:hover{
+	color: #ffffff;
+	background-color: rgba(44,8,54,0.9)
+}
+
+
+
+
+
+
+
+
 footer{}
 
 .copyright{
