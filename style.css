@@ -558,18 +558,24 @@ header{
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 136px;
+	min-height: 67px;
 	width: 100%;
 	background-size: 100%;
 		-webkit-background-size: 100%;
 			-o-background-size: 100%;
 				-moz-background-size: 100%;
-	background-size: cover;
-}
 
+}
+.footer__menu h4{
+	margin-top: 40px;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+
+}
 .menu__footer ul{
-	float: none;
-	text-align: none;
+	float: left;
+	text-align: left;
 }
 .menu__footer ul li a{
 	padding: 0px;
@@ -586,19 +592,59 @@ header{
 	display: block;
 }
 
+.icon-social{
+	list-style: none;
+	margin-top: 30px;
+
+}
+.icon-social li{
+	margin-bottom: 5px;
+}
+
+.contact{
+	list-style: none;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.contact li img{
+	margin-right: 10px;
+}
+.contact li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.aliados{
+	text-align: center;
+	margin-top: 40px;
+}
+.aliados li{
+	display: inline-block;
+	vertical-align: middle;
+	color: #3d194a;
+	font-size: 24px;
+	margin: 0px 10px;
+
+}
 
 
 footer{}
 
 .copyright{
-    background: #32a7d1;
+    background: #000000;
     font-size: 12px;
 	text-align: center;
+	color: #ffffff;
 }
 .copyright a{
-    color: #000000;
+    color: #ffffff;
 	text-decoration: none;
-	
+}
+.copyright p{
+	margin-bottom: 0px;
+}
+.copyright p strong{
+	font-size: 12px;
 }
 
 

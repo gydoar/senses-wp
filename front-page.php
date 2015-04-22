@@ -136,17 +136,17 @@
 	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;ENROLABLE</h3>
 
 	<p>
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/01-big.png" data-fancybox-group="gallery1"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/01.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/02-big.png" data-fancybox-group="gallery1"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/02.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/03-big.png" data-fancybox-group="gallery1" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/03.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/04-big.png" data-fancybox-group="gallery1" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/04.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/05-big.png" data-fancybox-group="gallery1" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/05.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/06-big.png" data-fancybox-group="gallery1" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/06.png" alt="" /></a>
 
 	</p>
 	
@@ -179,17 +179,17 @@
 	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;PERSIANA EN MADERA</h3>
 
 	<p>
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/01-big.png" data-fancybox-group="gallery2"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/01.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/02-big.png" data-fancybox-group="gallery2"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/02.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/03-big.png" data-fancybox-group="gallery2"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/03.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/04-big.png" data-fancybox-group="gallery2"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/04.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/05-big.png" data-fancybox-group="gallery2"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/05.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/06-big.png" data-fancybox-group="gallery2"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-madera/06.png" alt="" /></a>
 
 	</p>
 	
@@ -223,17 +223,17 @@
 	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;PANEL JAPONES</h3>
 
 	<p>
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/01-big.png" data-fancybox-group="gallery3"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/01.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/02-big.png" data-fancybox-group="gallery3"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/02.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/03-big.png" data-fancybox-group="gallery3"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/03.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/04-big.png" data-fancybox-group="gallery3"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/04.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/05-big.png" data-fancybox-group="gallery3"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/05.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/06-big.png" data-fancybox-group="gallery3"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/panel-japones/06.png" alt="" /></a>
 
 	</p>
 	
@@ -265,17 +265,17 @@
 	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;PERSIANA EN ALUMINIO</h3>
 
 	<p>
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/01-big.png" data-fancybox-group="gallery4"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/01.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/02-big.png" data-fancybox-group="gallery4"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/02.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/03-big.png" data-fancybox-group="gallery4"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/03.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/04-big.png" data-fancybox-group="gallery4"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/04.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/05-big.png" data-fancybox-group="gallery4"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/05.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/06-big.png" data-fancybox-group="gallery4"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/persianas-aluminio/06.png" alt="" /></a>
 
 	</p>
 	
@@ -307,17 +307,17 @@
 	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;ROMANAS</h3>
 
 	<p>
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/01-big.png" data-fancybox-group="gallery5"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/01.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/02-big.png" data-fancybox-group="gallery5"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/02.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/03-big.png" data-fancybox-group="gallery5"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/03.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/04-big.png" data-fancybox-group="gallery5"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/04.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/05-big.png" data-fancybox-group="gallery5"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/05.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/06-big.png" data-fancybox-group="gallery5"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/romanas/06.png" alt="" /></a>
 
 	</p>
 	
@@ -520,7 +520,7 @@
 	<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?q=4.815901,-74.362058&amp;num=1&amp;ie=UTF8&amp;ll=4.815687,-74.362067&amp;spn=0.001719,0.002411&amp;t=m&amp;z=14&amp;output=embed"></iframe>
 </div>
 
-<div class="container">
+<div class="container" id="contactenos">
 	<div class="ten columns offset-by-one form-cont">
 		<h2>CONTÁCTENOS</h2>
 		 <?php if(isset($emailSent) && $emailSent == true) { ?>
@@ -599,22 +599,54 @@
 	<div class="container">
 		<div class="ten columns offset-by-one">
 			<div class="six columns">
-				<div class="six columns">
+				<div class="five columns">
 					<nav class="menu__footer">
 						<?php wp_nav_menu(array('theme_location' => 'footer-1')); ?>
 					</nav>
 				</div>
-				<div class="six columns">
+				<div class="five columns">
 					<nav class="menu__footer">
 						<?php wp_nav_menu(array('theme_location' => 'footer-2')); ?>
 					</nav>
 				</div>
 			</div>
+
 			<div class="six columns">
+				<div class="ten columns">
+					<h4>CONTÁCTENOS</h4>
+					<ul class="contact">
+						<li><img width="15" src="<?php bloginfo('template_url' ); ?>/library/img/icon-map.png" alt="">Carrera 45 a 134 a 60, Prado Veraniego</li>
+						<li><img width="19" src="<?php bloginfo('template_url' ); ?>/library/img/icon-mail.png" alt=""><a href="mailto:ventas@sensescortinasdeco.com">ventas@sensescortinasdeco.com</a></li>
+						<li><img width="13" src="<?php bloginfo('template_url' ); ?>/library/img/icon-tel.png" alt="">+57 301 5477676  /  +57 445 2644</li>
+					</ul>
+				</div>
+				<div class="two columns">
+					<ul class="icon-social">
+						<li><a href="#"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt=""></a></li>
+						
+						<li><a href="#"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt=""></a></li>
+
+						<li><a href="#"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-pinterest.png" alt=""></a></li>
+					</ul>
+				</div>
 				
 			</div>
 			
 		</div>
 	</div>
+</div>
+
+
+
+
+<!-- aliados -->
+
+<div class="container aliados">
+	<ul class="aliados">
+		<li>Nuestros Aliados</li>
+		<li><a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/aliado-1.png" alt=""></a></li>
+		<li><a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/aliado-2.png" alt=""></a></li>
+	</ul>
+
 </div>
 <?php get_footer(); ?>
