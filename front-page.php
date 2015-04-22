@@ -193,7 +193,7 @@
 <!-- Seccion 5 -->
 <div class="banner-5">
 	<div class="container">
-		<div class="five columns">
+		<div class="six columns">
 			<h3 class="">PERSIANA EN ALUMINIO</h3><br><br><br>
 			<p>Persiana tradicional en láminas 100% aluminio, con gran capacidad de dilatación al calor del sol, evita el deterioro del entorno o ambiente interno en donde sea empleada, las láminas van de manera horizontal y se desplazan verticalmente, tienen un ángulo de giro de hasta 180°, permitiendo un control gradual al paso de luz.
 			<br><br>
@@ -250,9 +250,136 @@
 	
 </div>
 
-<!-- seccion Persiana en aluminio -->
+<!-- seccion Romanas -->
 <div id="enrollable" class="container enrollable">
 	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;ROMANAS</h3>
+
+	<p>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+	</p>
+	
+	<a class="btn__vermas" href="#">Ver más</a>
+</div>
+
+
+
+<!-- Seccion 7 -->
+<div class="banner-7">
+	<div class="container">
+		<div class="five columns">
+			<h3 class="">SHEER ELEGANCE</h3><br><br><br>
+			<p>Es uno de los diseños más modernos y eficientes que existen, tiene dos funciones principales en una misma cortina se puede obtener la función de velo para la claridad del día, y  de cortina pesada para la privacidad de la noche; este sistema emplea un eje en aluminio de donde se desprenden dos capas de telas, siendo una de ellas  la que se desplaza sobre la otra, cuando las dos franjas oscuras coinciden en la misma posición se cumple la función del velo, cuando no, se cumple la función de la cortina pesada.
+			<br><br>
+			Todas las cortinas y persianas se pueden automatizar.</p>
+			<br><br>
+			<li>Diseño elegante, innovador, sencillo, eficiente.</li>
+			<li>Función de dos cortinas en una misma persiana.</li>
+			<li>Recogimiento total en la parte superior para permitir una vista completa.</li>
+			<li>Fácil mantenimiento y limpieza.</li>
+			<li>Un portafolio con más de 180 referencias entrecolores, materiales y acabados distintos.</li>
+		</div>
+	</div>
+	
+</div>
+
+<!-- seccion Sheer elegance -->
+<div id="enrollable" class="container enrollable">
+	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;SHEER ELEGANCE</h3>
+
+	<p>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+	</p>
+	
+	<a class="btn__vermas" href="#">Ver más</a>
+</div>
+
+
+
+<!-- Seccion 8 -->
+<div class="banner-8">
+	<div class="container">
+		<div class="five columns">
+			<h3 class="">VERTICALES</h3><br><br><br>
+			<p>Persianas elegantes, funcionales y muy prácticas, empleadas en áreas sociales. Es un sistema que emplea un riel en aluminio el cual sostiene lamas verticales de 10 cm, esta tienen una rotación máxima de 180° para la graduación en el ángulo de entrada u obstrucción del rayo luminoso. Las lamas pueden tener máximo dos sentidos de desplazamiento horizontal.
+			<br><br>
+			Todas las cortinas y persianas se pueden automatizar.</p>
+			<br><br>
+			<li>Fácil mantenimiento y limpieza.</li>
+			<li>Diseño, elegancia y funcionamiento.</li>
+			<li>180° de rotación en lamas que permiten tener control sobre la cantidad de luz y dirección de la misma.</li>
+			<li>Más de 140 referencias en colores y materiales.</li>
+		</div>
+	</div>
+	
+</div>
+
+<!-- seccion Verticales -->
+<div id="enrollable" class="container enrollable">
+	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;VERTICALES</h3>
+
+	<p>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+	</p>
+	
+	<a class="btn__vermas" href="#">Ver más</a>
+</div>
+
+
+
+<!-- Seccion 9 -->
+<div class="banner-9">
+	<div class="container">
+		<div class="five columns">
+			<h3 class="">STRINGS</h3><br><br><br>
+			<p>Es la persiana más moderna actualmente en el mercado, es la transformación de la persiana vertical que relaciona un diseño clásico con materiales modernos y de última tecnología. Ideal para dar tranquilidad y frescura.
+			<br><br>
+			Todas las cortinas y persianas se pueden automatizar.</p>
+			<br><br>
+			<li>Fácil mantenimiento y limpieza.</li>
+			<li>Diseño, elegancia y funcionamiento.</li>
+			<li>180° de rotación en lamas que permiten tener control sobre la cantidad de luz y dirección de la misma.</li>
+			<li>Actualmente existen 4 colores. - Blanco - negro - gris y - beige.</li>
+		</div>
+	</div>
+	
+</div>
+
+<!-- seccion Verticales -->
+<div id="enrollable" class="container enrollable">
+	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;STRINGS</h3>
 
 	<p>
 		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>

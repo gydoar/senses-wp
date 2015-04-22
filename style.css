@@ -138,7 +138,7 @@ header{
 	background-size: cover;
 }
 	.banner-2 h3{
-		letter-spacing: 2px;
+		letter-spacing: 4px;
 		font-weight: 700;
 	}
 	.banner-2 p{
@@ -193,7 +193,7 @@ header{
 	background-size: cover;
 }
 	.banner-3 h3{
-		letter-spacing: 2px;
+		letter-spacing: 4px;
 		font-weight: 700;
 	}
 	.banner-3 p{
@@ -227,7 +227,7 @@ header{
 	background-size: cover;
 }
 	.banner-4 h3{
-		letter-spacing: 2px;
+		letter-spacing: 4px;
 		font-weight: 700;
 	}
 	.banner-4 p{
@@ -263,7 +263,7 @@ header{
 	background-size: cover;
 }
 	.banner-5 h3{
-		letter-spacing: 2px;
+		letter-spacing: 4px;
 		font-weight: 700;
 	}
 	.banner-5 p{
@@ -300,7 +300,7 @@ header{
 	background-size: cover;
 }
 	.banner-6 h3{
-		letter-spacing: 2px;
+		letter-spacing: 4px;
 		font-weight: 700;
 	}
 	.banner-6 p{
@@ -316,6 +316,119 @@ header{
 		font-weight: normal;
 		letter-spacing: .5px;
 	}
+
+
+
+
+/* BANNER 7 */
+.banner-7{
+	padding-top: 100px;
+	color: #fff;
+	background: url(library/img/bg-7.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 838px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+	.banner-7 h3{
+		letter-spacing: 4px;
+		font-weight: 700;
+	}
+	.banner-7 p{
+		padding: 10px 20px;
+		font-size: 14px;
+		letter-spacing: .5px;
+		font-weight: normal;
+		background-color: rgba(61,25,74,0.8);
+	}
+	.banner-7 li{
+		background-color: rgba(61,25,74,0.8);
+		padding: 7px;
+		font-weight: normal;
+		letter-spacing: .5px;
+	}
+
+
+/* BANNER 8 */
+.banner-8{
+	padding-top: 100px;
+	color: #fff;
+	background: url(library/img/bg-8.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 838px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+	.banner-8 h3{
+		letter-spacing: 4px;
+		font-weight: 700;
+	}
+	.banner-8 p{
+		padding: 10px 20px;
+		font-size: 14px;
+		letter-spacing: .5px;
+		font-weight: normal;
+		background-color: rgba(61,25,74,0.8);
+	}
+	.banner-8 li{
+		background-color: rgba(61,25,74,0.8);
+		padding: 7px;
+		font-weight: normal;
+		letter-spacing: .5px;
+	}
+
+
+/* BANNER 9 */
+.banner-9{
+	padding-top: 100px;
+	color: #fff;
+	background: url(library/img/bg-9.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 838px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+	.banner-9 h3{
+		letter-spacing: 4px;
+		font-weight: 700;
+	}
+	.banner-9 p{
+		padding: 10px 20px;
+		font-size: 14px;
+		letter-spacing: .5px;
+		font-weight: normal;
+		background-color: rgba(61,25,74,0.8);
+	}
+	.banner-9 li{
+		background-color: rgba(61,25,74,0.8);
+		padding: 7px;
+		font-weight: normal;
+		letter-spacing: .5px;
+	}
+
+
+
+
+
+
 
 
 .btn__vermas{
