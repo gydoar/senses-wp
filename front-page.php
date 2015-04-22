@@ -1,3 +1,55 @@
+<?php
+   if(isset($_POST['submitted'])) {
+    if(trim($_POST['contactName']) === '') {
+        $nameError = 'Por favor ingrese su nombre.';
+        $hasError = true;
+    } else {
+        $name = trim($_POST['contactName']);
+    }
+
+    if(trim($_POST['email']) === '')  {
+        $emailError = 'Por favor ingrese su email.';
+        $hasError = true;
+    } else if (!preg_match("/^[[:alnum:]][a-z0-9_.-]*@[a-z0-9.-]+\.[a-z]{2,4}$/i", trim($_POST['email']))) {
+        $emailError = 'Dirreción de email invalida.';
+        $hasError = true;
+    } else {
+        $email = trim($_POST['email']);
+    }
+
+     if(trim($_POST['telefono']) === '') {
+        $telError = 'Por favor ingrese su teléfono.';
+        $hasError = true;
+    } else {
+        $telefono = trim($_POST['telefono']);
+    }
+
+    if(trim($_POST['comments']) === '') {
+        $commentError = 'Por favor ingresa un mensaje.';
+        $hasError = true;
+    } else {
+        if(function_exists('stripslashes')) {
+            $comments = stripslashes(trim($_POST['comments']));
+        } else {
+            $comments = trim($_POST['comments']);
+        }
+    }
+
+    if(!isset($hasError)) {
+        $emailTo = get_option('tz_email');
+        if (!isset($emailTo) || ($emailTo == '') ){
+            $emailTo = get_option('admin_email');
+        }
+        $subject = '[Contacto axemos] From '.$name;
+        $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments";
+        $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
+
+        wp_mail($emailTo, $subject, $body, $headers);
+        $emailSent = true;
+    }
+
+} ?>
+
 <?php get_header(); ?>
 
 <header>
@@ -5,7 +57,7 @@
 		<div class="four columns logo">
 			<a href="#"><img class="twelve columns" width="332" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a>
 		</div>
-		<nav class="six columns offset-by-two">
+		<nav class="six columns offset-by-two" id="menu-header">
 			<?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
 		</nav>
 	</div>
@@ -59,7 +111,7 @@
 </div>
 
 <!-- Seccion 2 -->
-<div class="banner-2">
+<div class="banner-2" id="enrollable">
 	<div class="container">
 		<div class="five columns">
 			<h3 class="four columns">ENROLLABLE</h3><br><br><br>
@@ -377,9 +429,71 @@
 	
 </div>
 
-<!-- seccion Verticales -->
+<!-- seccion Strings -->
 <div id="enrollable" class="container enrollable">
 	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;STRINGS</h3>
+
+	<p>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+	</p>
+	
+	<a class="btn__vermas" href="#">Ver más</a>
+</div>
+
+
+<!-- Seccion 10 -->
+<div class="banner-10">
+	<div class="container">
+		<div class="five columns">
+			<h3 class="">PERSONALIZADAS</h3><br><br><br>
+			<p>Todas nuestras Persianas son personalizables, lo que indica que se puede integrar el estilo de cortina deseado y plasmar en ella la figura o diseño que se quiera.
+			<br><br>
+			Todas las cortinas y persianas se pueden automatizar.</p>
+			<br><br>
+			<li>El diseño depende de su creatividad.</li>
+			<li>En esta opción se ofrece la posibilidad de crear una persiana única en el mundo.</li>
+		</div>
+	</div>
+	
+</div>
+
+<!-- seccion Personalizadas -->
+<div id="enrollable" class="container enrollable">
+	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;PERSONALIZADAS</h3>
+
+	<p>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
+
+	</p>
+	
+	<a class="btn__vermas" href="#">Ver más</a>
+</div>
+
+
+<!-- Seccion 11 -->
+<div class="banner-11" id="paredes-3d">
+	<div class="container">
+		<div class="five columns">
+			<h3 class="">PAREDES 3D</h3><br><br><br>
+			<p>Es un producto novedoso y económico, permite darle un contraste no convencional a la decoración en el contorno interno de los espacios y paredes; por sus diseños en alto relieve y gran variedad en el portafolio, es posible adecuar cualquier ambiente que vaya acorde con el objetivo del espacio, siempre teniendo en cuenta que la decoración de los ambientes van acordes a la personalidad de cada persona.</p>
+			
+		</div>
+	</div>
+	
+</div>
+
+<!-- seccion Paredes 3D -->
+<div id="enrollable" class="container enrollable">
+	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;PAREDES 3D</h3>
 
 	<p>
 		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/enrollable1.png" alt="" /></a>
@@ -399,4 +513,108 @@
 	<a class="btn__vermas" href="#">Ver más</a>
 </div>
 
+
+<!-- Contactenos -->
+
+<div class="map">
+	<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?q=4.815901,-74.362058&amp;num=1&amp;ie=UTF8&amp;ll=4.815687,-74.362067&amp;spn=0.001719,0.002411&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+</div>
+
+<div class="container">
+	<div class="ten columns offset-by-one form-cont">
+		<h2>CONTÁCTENOS</h2>
+		 <?php if(isset($emailSent) && $emailSent == true) { ?>
+             <div class="alert alert-success">
+                <p>Gracias, su mensaje ha sido bien recibido.</p>
+            </div>
+            <?php } else { ?>
+
+            <?php if(isset($hasError) || isset($captchaError)) { ?>
+            <div class="alert alert-danger alert-dismissable">
+                <a class="close" data-dismiss="alert">×</a>
+                <h4 class="alert-heading">Disculpe, existen algunos errores.</h4>
+                <p class="error">Por favor inténtalo de nuevo!<p>
+            </div>
+                <?php } ?>
+
+                <form action="<?php the_permalink(); ?>" id="contactForm" method="post">
+                    <fieldset>
+                    	<div class="six columns">
+                    		<div class="form-group">
+								<label for="">Nombre
+									<input class="form-control" type="text" name="contactName" id="contactName" value=""/>
+								</label>
+	                            
+	                            <span class="input-icon fui-check-inverted"></span>
+	                            <?php if(isset($nameError)) { ?>
+	                            <p><span class="error"><?=$nameError;?></span></p>
+	                            <?php } ?>
+	                             <br>
+
+	                        </div>
+                    	</div>
+
+                    	<div class="six columns">
+                    		<div class="form-group">
+								<label for="">Teléfono
+									<input class="form-control" type="text" name="telefono" id="telefono" value=""/>
+								</label>
+	                            
+	                            <span class="input-icon fui-check-inverted"></span>
+	                            <?php if(isset($telError)) { ?>
+	                            <p><span class="error"><?=$telError;?></span></p>
+	                            <?php } ?>
+
+	                             <br>
+	                        </div>
+                    	</div>
+	                        
+                      	<div class="twelve columns">
+	                      	<div class="form-group">
+								<label for="">Mensaje
+									<textarea class="form-control" name="comments" id="commentsText" rows="100" cols="10"></textarea>
+								</label>
+	                            
+	                            <?php if(isset($commentError)) { ?>
+	                            <p><span class="error"><?=$commentError;?></span></p>
+	                            <?php } ?>
+	                             <br>
+	                        </div>
+	                        <div class="form-actions">
+	                            <button style="float:right;"type="submit" class="btn btn-success button-primary">Enviar</button>
+	                        </div>
+	                        <input type="hidden" name="submitted" id="submitted" value="true" />
+                      	</div>
+                        
+                       
+                    </fieldset>
+                </form>
+            <?php } ?>
+	</div>
+</div>
+
+
+<!-- footer menu -->
+<div class="footer__menu">
+	<div class="container">
+		<div class="ten columns offset-by-one">
+			<div class="six columns">
+				<div class="six columns">
+					<nav class="menu__footer">
+						<?php wp_nav_menu(array('theme_location' => 'footer-1')); ?>
+					</nav>
+				</div>
+				<div class="six columns">
+					<nav class="menu__footer">
+						<?php wp_nav_menu(array('theme_location' => 'footer-2')); ?>
+					</nav>
+				</div>
+			</div>
+			<div class="six columns">
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
 <?php get_footer(); ?>

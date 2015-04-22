@@ -264,6 +264,24 @@
 	</script>
 <!--/ script -->
 
+<!-- Efectos scroll menu -->
+<script>
+	$(document).on("ready", main);
+
+	function main(){
+		$("#menu-header a").on("click", irA);
+	}
+
+	function irA(){
+		var seccion = $(this).attr("href");
+		$("body, html").animate({
+			scrollTop: $(seccion).offset().top
+		},800);
+
+		return false;
+	}
+	</script>
+
 <!-- Scripts Adiconales -->
 
 	<!-- Menu responsive -->

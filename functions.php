@@ -10,6 +10,7 @@ require_once( 'library/admin.php' );
 register_nav_menus(
 		array(
 			'header-menu' => 'Menu superior',   // main nav in header
-			'footer-menu' => 'Menu pie' // secondary nav in footer
+			'footer-1' => 'Footer 1', // secondary nav in footer
+			'footer-2' => 'Footer 2' // secondary nav in footer
 		)
 	);

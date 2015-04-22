@@ -426,6 +426,74 @@ header{
 
 
 
+/* BANNER 10 */
+.banner-10{
+	padding-top: 100px;
+	color: #fff;
+	background: url(library/img/bg-10.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 838px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+	.banner-10 h3{
+		letter-spacing: 4px;
+		font-weight: 700;
+	}
+	.banner-10 p{
+		padding: 10px 20px;
+		font-size: 14px;
+		letter-spacing: .5px;
+		font-weight: normal;
+		background-color: rgba(61,25,74,0.8);
+	}
+	.banner-10 li{
+		background-color: rgba(61,25,74,0.8);
+		padding: 7px;
+		font-weight: normal;
+		letter-spacing: .5px;
+	}
+
+
+/* BANNER 10 */
+.banner-11{
+	padding-top: 100px;
+	color: #fff;
+	background: url(library/img/bg-11.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 838px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+	.banner-11 h3{
+		letter-spacing: 4px;
+		font-weight: 700;
+	}
+	.banner-11 p{
+		padding: 10px 20px;
+		font-size: 14px;
+		letter-spacing: .5px;
+		font-weight: normal;
+		background-color: rgba(61,25,74,0.8);
+	}
+	.banner-11 li{
+		background-color: rgba(61,25,74,0.8);
+		padding: 7px;
+		font-weight: normal;
+		letter-spacing: .5px;
+	}
 
 
 
@@ -446,9 +514,77 @@ header{
 }
 
 
+.map{
+	border-top: 4px solid #3d194a;
+}
+
+.form-cont{
+	color: #3d194a;
+	padding: 30px 0px;
+}
+.form-cont h2{
+	text-align: center;
+	color: #3d194a;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+.form-cont input{
+	width: 300px;
+	border-radius: 0px;
+	border: 1px solid #3d194a;
+}
+.form-cont textarea{
+	width: 715px;
+	height: 200px;
+	vertical-align: top;
+	border: 1px solid #3d194a;
+}
+.form-cont input:focus{
+	border: 1px solid #3d194a;
+}
+.form-cont label{
+	font-weight: normal;
+	font-size: 18px;
+}
 
 
 
+
+.footer__menu{
+	padding-top: 100px;
+	color: #fff;
+	background: url(library/img/bg-menu-footer.png);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 136px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+}
+
+.menu__footer ul{
+	float: none;
+	text-align: none;
+}
+.menu__footer ul li a{
+	padding: 0px;
+	margin: 0px;
+}
+.menu__footer ul li a:hover{
+	padding: 0px;
+	background: none;
+}
+.menu__footer ul li{
+	list-style: circle;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
 
 
 
