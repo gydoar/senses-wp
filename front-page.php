@@ -78,10 +78,11 @@
 
 <div class="tab">
 	<div class="container">
-		<h2>NOSOTROS</h2>
+
 		<div id="carousel">
 					<div class="slide">
 						<div class="text">
+							<h2>NOSOTROS</h2>
 							<p><strong>SENSES COTINAS Y DECORACIÓN</strong> es una empresa que ofrece  asesoría en la decoración de espacios y ambientes, manejando tres líneas principales como lo son; cortinas-persianas, paredes en 3 dimensiones,  piso laminado y en madera. <br><br>
 							Ponemos a disposición los sentidos en decoración para cada ambiente y cada personalidad, contando   con el respaldo de empresas de calidad,  las cuales suministran productos óptimos para el diseño.
 							</p>
@@ -90,16 +91,16 @@
 					
 					<div class="slide">
 						<div class="text">
-							<p><strong>SENSES COTINAS Y DECORACIÓN</strong> es una empresa que ofrece  asesoría en la decoración de espacios y ambientes, manejando tres líneas principales como lo son; cortinas-persianas, paredes en 3 dimensiones,  piso laminado y en madera. <br><br>
-							Ponemos a disposición los sentidos en decoración para cada ambiente y cada personalidad, contando   con el respaldo de empresas de calidad,  las cuales suministran productos óptimos para el diseño.
+							<h2>MISIÓN</h2>
+							<p><br>Senses ofrece a los clientes diseño, calidad  y servicio satisfaciendo sus necesidades, generando un ambiente agradable.
 							</p>
 						</div>
 					</div>
 					
 					<div class="slide">
 						<div class="text">
-							<p><strong>SENSES COTINAS Y DECORACIÓN</strong> es una empresa que ofrece  asesoría en la decoración de espacios y ambientes, manejando tres líneas principales como lo son; cortinas-persianas, paredes en 3 dimensiones,  piso laminado y en madera. <br><br>
-							Ponemos a disposición los sentidos en decoración para cada ambiente y cada personalidad, contando   con el respaldo de empresas de calidad,  las cuales suministran productos óptimos para el diseño.
+							<h2>VISIÓN</h2>
+							<p><br>Obtener el reconocimiento como la mejor alternativa en cortinas-persianas y decoración.
 							</p>
 						</div>
 					</div>		
@@ -140,13 +141,13 @@
 
 		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/02-big.png" data-fancybox-group="gallery1"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/02.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/03-big.png" data-fancybox-group="gallery1" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/03.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/03-big.png" data-fancybox-group="gallery1"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/03.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/04-big.png" data-fancybox-group="gallery1" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/04.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/04-big.png" data-fancybox-group="gallery1"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/04.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/05-big.png" data-fancybox-group="gallery1" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/05.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/05-big.png" data-fancybox-group="gallery1"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/05.png" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/06-big.png" data-fancybox-group="gallery1" title="Lorem ipsum dolor sit amet"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/06.png" alt="" /></a>
+		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/06-big.png" data-fancybox-group="gallery1"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/06.png" alt="" /></a>
 
 	</p>
 	
@@ -517,7 +518,7 @@
 <!-- Contactenos -->
 
 <div class="map">
-	<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?q=4.815901,-74.362058&amp;num=1&amp;ie=UTF8&amp;ll=4.815687,-74.362067&amp;spn=0.001719,0.002411&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+	<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?q=4.72051,-74.052713&amp;num=1&amp;ie=UTF8&amp;ll=4.720071,-74.051585&amp;spn=0.001719,0.002411&amp;t=m&amp;z=14&amp;output=embed"></iframe>
 </div>
 
 <div class="container" id="contactenos">
