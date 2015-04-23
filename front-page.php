@@ -57,7 +57,7 @@
 		<div class="four columns logo">
 			<a href="#"><img class="twelve columns" width="332" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a>
 		</div>
-		<nav class="six columns offset-by-two" id="menu-header">
+		<nav class="six columns offset-by-two nav" id="menu-header">
 			<?php wp_nav_menu(array('theme_location' => 'header-menu')); ?>
 		</nav>
 	</div>
@@ -151,16 +151,16 @@
 
 	</p>
 	
-	<a class="btn__vermas" href="#">Ver más</a>
+	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
 </div>
 
 
 
 <!-- Seccion 3 -->
-<div class="banner-3">
+<div class="banner-3" id="en-madera">
 	<div class="container">
 		<div class="five columns">
-			<h3 class="">PERSIANA EN MADERA</h3><br><br><br>
+			<h3 class="">PERSIANA EN MADERA</h3><br>
 			<p>Es fabricada en madera natural, lo que permite una absorción de los rayos del sol, protege los espacios internos de los rayos UV, dando a su vez un entorno cálido y elegante; las láminas tienen un ancho de 5 cm y estas tienen una capacidad de giro de 180° lo que permite tener un control gradual sobre la cantidad de iluminación y privacidad que se requiera.
 			<br><br>
 			Todas las cortinas y persianas se pueden automatizar.</p>
@@ -194,15 +194,15 @@
 
 	</p>
 	
-	<a class="btn__vermas" href="#">Ver más</a>
+	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
 </div>
 
 
 <!-- Seccion 4 -->
-<div class="banner-4">
+<div class="banner-4" id="panel-japones">
 	<div class="container">
 		<div class="five columns">
-			<h3 class="">PANEL JAPONES</h3><br><br><br>
+			<h3 class="">PANEL JAPONES</h3><br>
 			<p>Es uno de los sistemas más imponentes y elegantes, Ideal para puerta-ventana, balcones, ventanas anchas y altas; está compuesto por paños o lamas con unas dimensiones   entre 45 cm y 80 cm de ancho que se desprenden de forma vertical y se desplazan de manera horizontal por medio de un riel fabricado en aleaciones de metales.
 			<br><br>
 			Todas las cortinas y persianas se pueden automatizar.</p>
@@ -238,16 +238,16 @@
 
 	</p>
 	
-	<a class="btn__vermas" href="#">Ver más</a>
+	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
 </div>
 
 
 
 <!-- Seccion 5 -->
-<div class="banner-5">
+<div class="banner-5" id="en-aluminio">
 	<div class="container">
 		<div class="six columns">
-			<h3 class="">PERSIANA EN ALUMINIO</h3><br><br><br>
+			<h3 class="">PERSIANA EN ALUMINIO</h3><br>
 			<p>Persiana tradicional en láminas 100% aluminio, con gran capacidad de dilatación al calor del sol, evita el deterioro del entorno o ambiente interno en donde sea empleada, las láminas van de manera horizontal y se desplazan verticalmente, tienen un ángulo de giro de hasta 180°, permitiendo un control gradual al paso de luz.
 			<br><br>
 			Todas las cortinas y persianas se pueden automatizar.</p>
@@ -280,17 +280,17 @@
 
 	</p>
 	
-	<a class="btn__vermas" href="#">Ver más</a>
+	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
 </div>
 
 
 
 
 <!-- Seccion 6 -->
-<div class="banner-6">
+<div class="banner-6" id="romanas">
 	<div class="container">
 		<div class="five columns">
-			<h3 class="">ROMANAS</h3><br><br><br>
+			<h3 class="">ROMANAS</h3><br>
 			<p>Este es un diseño occidental sencillo y elegante, con un accionamiento plegable de forma vertical, el material empleado para este estilo de cortina se divide en secciones iguales que permitan un desplazamiento uniforme.
 			<br><br>
 			Todas las cortinas y persianas se pueden automatizar.</p>
@@ -322,16 +322,16 @@
 
 	</p>
 	
-	<a class="btn__vermas" href="#">Ver más</a>
+	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
 </div>
 
 
 
 <!-- Seccion 7 -->
-<div class="banner-7">
+<div class="banner-7" id="sheer">
 	<div class="container">
 		<div class="five columns">
-			<h3 class="">SHEER ELEGANCE</h3><br><br><br>
+			<h3 class="">SHEER ELEGANCE</h3><br>
 			<p>Es uno de los diseños más modernos y eficientes que existen, tiene dos funciones principales en una misma cortina se puede obtener la función de velo para la claridad del día, y  de cortina pesada para la privacidad de la noche; este sistema emplea un eje en aluminio de donde se desprenden dos capas de telas, siendo una de ellas  la que se desplaza sobre la otra, cuando las dos franjas oscuras coinciden en la misma posición se cumple la función del velo, cuando no, se cumple la función de la cortina pesada.
 			<br><br>
 			Todas las cortinas y persianas se pueden automatizar.</p>
@@ -365,16 +365,16 @@
 
 	</p>
 	
-	<a class="btn__vermas" href="#">Ver más</a>
+	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
 </div>
 
 
 
 <!-- Seccion 8 -->
-<div class="banner-8">
+<div class="banner-8" id="verticales">
 	<div class="container">
 		<div class="five columns">
-			<h3 class="">VERTICALES</h3><br><br><br>
+			<h3 class="">VERTICALES</h3><br>
 			<p>Persianas elegantes, funcionales y muy prácticas, empleadas en áreas sociales. Es un sistema que emplea un riel en aluminio el cual sostiene lamas verticales de 10 cm, esta tienen una rotación máxima de 180° para la graduación en el ángulo de entrada u obstrucción del rayo luminoso. Las lamas pueden tener máximo dos sentidos de desplazamiento horizontal.
 			<br><br>
 			Todas las cortinas y persianas se pueden automatizar.</p>
@@ -407,16 +407,16 @@
 
 	</p>
 	
-	<a class="btn__vermas" href="#">Ver más</a>
+	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
 </div>
 
 
 
 <!-- Seccion 9 -->
-<div class="banner-9">
+<div class="banner-9" id="strings">
 	<div class="container">
 		<div class="five columns">
-			<h3 class="">STRINGS</h3><br><br><br>
+			<h3 class="">STRINGS</h3><br>
 			<p>Es la persiana más moderna actualmente en el mercado, es la transformación de la persiana vertical que relaciona un diseño clásico con materiales modernos y de última tecnología. Ideal para dar tranquilidad y frescura.
 			<br><br>
 			Todas las cortinas y persianas se pueden automatizar.</p>
@@ -443,15 +443,15 @@
 
 	</p>
 	
-	<a class="btn__vermas" href="#">Ver más</a>
+	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
 </div>
 
 
 <!-- Seccion 10 -->
-<div class="banner-10">
+<div class="banner-10" id="personalizadas">
 	<div class="container">
 		<div class="five columns">
-			<h3 class="">PERSONALIZADAS</h3><br><br><br>
+			<h3 class="">PERSONALIZADAS</h3><br>
 			<p>Todas nuestras Persianas son personalizables, lo que indica que se puede integrar el estilo de cortina deseado y plasmar en ella la figura o diseño que se quiera.
 			<br><br>
 			Todas las cortinas y persianas se pueden automatizar.</p>
@@ -476,7 +476,7 @@
 
 	</p>
 	
-	<a class="btn__vermas" href="#">Ver más</a>
+	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
 </div>
 
 
@@ -484,7 +484,7 @@
 <div class="banner-11" id="paredes-3d">
 	<div class="container">
 		<div class="five columns">
-			<h3 class="">PAREDES 3D</h3><br><br><br>
+			<h3 class="">PAREDES 3D</h3><br>
 			<p>Es un producto novedoso y económico, permite darle un contraste no convencional a la decoración en el contorno interno de los espacios y paredes; por sus diseños en alto relieve y gran variedad en el portafolio, es posible adecuar cualquier ambiente que vaya acorde con el objetivo del espacio, siempre teniendo en cuenta que la decoración de los ambientes van acordes a la personalidad de cada persona.</p>
 			
 		</div>
@@ -511,7 +511,7 @@
 
 	</p>
 	
-	<a class="btn__vermas" href="#">Ver más</a>
+	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
 </div>
 
 
@@ -623,11 +623,11 @@
 				</div>
 				<div class="two columns">
 					<ul class="icon-social">
-						<li><a href="#"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt=""></a></li>
+						<li><a target="new" href="https://www.facebook.com/pages/Senses-Cortinas-y-Decoración/1552745068342412"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt=""></a></li>
 						
-						<li><a href="#"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt=""></a></li>
+						<li><a target="new" href="https://twitter.com/sensesdeco"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt=""></a></li>
 
-						<li><a href="#"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-pinterest.png" alt=""></a></li>
+						<li><a target="new" href="https://es.pinterest.com/sensescd/"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-pinterest.png" alt=""></a></li>
 					</ul>
 				</div>
 				
