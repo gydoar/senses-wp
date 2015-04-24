@@ -293,7 +293,8 @@
 	      slideSpeed : 300,
 	      paginationSpeed : 400,
 	      singleItem:true,
-	      pagination: false
+	      pagination: false,
+	      autoPlay: true
 
 	 
 	      // "singleItem:true" is a shortcut for:
