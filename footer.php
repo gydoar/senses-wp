@@ -282,7 +282,6 @@
 	}
 	</script>
 
-
 <!-- Scripts Adiconales -->
 
 	<!-- Menu responsive -->

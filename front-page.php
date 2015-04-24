@@ -70,7 +70,7 @@
 		<h3>DISEÑO, <span>CALIDAD Y</span> SERVICIO <br>
 		<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
 		</h3>
-		
+		<a href="#enrollable"><img class="animated infinite bounce"  width="50" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
 	</div>
 </div>
 
@@ -647,6 +647,7 @@
 		<li>Nuestros Aliados</li>
 		<li><a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/aliado-1.png" alt=""></a></li>
 		<li><a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/aliado-2.png" alt=""></a></li>
+		<li><a href="#"><img src="<?php bloginfo('template_url' ); ?>/library/img/aliado-3.png" alt=""></a></li>
 	</ul>
 
 </div>
