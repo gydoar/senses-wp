@@ -17,6 +17,8 @@
 
 		<script type="text/javascript" src="<?php bloginfo('template_url' ); ?>/library/js/jquery.fancybox.js?v=2.1.5"></script>
 
+		<script type="text/javascript" src="<?php bloginfo('template_url' ); ?>/library/js/owl.carousel.js"></script>
+
 <script>
 	jQuery(function($) {
 				function generatePages() {
@@ -281,6 +283,31 @@
 		return false;
 	}
 	</script>
+
+<script>
+	$(document).ready(function() {
+ 
+	  $("#owl-demo").owlCarousel({
+	 
+	      navigation : false, // Show next and prev buttons
+	      slideSpeed : 300,
+	      paginationSpeed : 400,
+	      singleItem:true,
+	      pagination: false
+
+	 
+	      // "singleItem:true" is a shortcut for:
+	      // items : 1, 
+	      // itemsDesktop : false,
+	      // itemsDesktopSmall : false,
+	      // itemsTablet: false,
+	      // itemsMobile : false
+	 
+	  });
+	 
+	});
+
+</script>
 
 <!-- Scripts Adiconales -->
 

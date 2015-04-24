@@ -64,7 +64,7 @@
 </header>
 
 <!-- Seccion banner 1 -->
-
+<!--
 <div class="banner-1">
 	<div class="container cont__bnn1">
 		<h3>DISEÑO, <span>CALIDAD Y</span> SERVICIO <br>
@@ -72,6 +72,29 @@
 		</h3>
 		<a href="#enrollable"><img class="animated infinite bounce"  width="50" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
 	</div>
+</div>
+-->
+
+<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+	 <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/bg-1.jpg">
+		<div class="container cont__bnn1">
+			<h3>DISEÑO, <span>CALIDAD Y</span> SERVICIO <br>
+			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
+			</h3>
+			<a href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
+		</div>
+	 </div>
+	 
+	 <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/bg-1-1.jpg">
+		<div class="container cont__bnn1">
+			<h3 style="color:#fff;"><span>LÍDERES</span> EN AUTOMATIZACIÓN, MONITORIZACIÓN Y DOMÓTICA<br>
+			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
+			</h3>
+			<a href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
+		</div>
+	 </div>
+
 </div>
 
 <!-- Seccion tab 2 -->

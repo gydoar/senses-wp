@@ -28,6 +28,8 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 @import url(library/css/skeleton.css);
 @import url(library/css/rcarousel.css);
 @import url(library/css/jquery.fancybox.css);
+@import url(library/css/owl.carousel.css);
+@import url(library/css/owl.theme.css);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 
 body{
@@ -113,14 +115,9 @@ header{
 	margin-left: 0px;
 }
 
-.banner-1{
-	background-image: -webkit-gradient(linear, 0 top, 0 bottom, from(#f00), to(#f60));
-	background: url(library/img/bg-1.png);
-	background-repeat: no-repeat;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 838px;
+#owl-demo{
 	width: 100%;
+	min-height: 838px;
 	background-size: 100%;
 		-webkit-background-size: 100%;
 			-o-background-size: 100%;
@@ -130,18 +127,18 @@ header{
 }
 	.cont__bnn1{
 	text-align: center;
-	z-index: 101;
-	position: relative;
+	margin-top: -750px;
 	/*padding-top: 270px;*/
 	}
 		.cont__bnn1 h3{
+			z-index: 2;
 			margin-left: 120px;
 			font-size: 60px;
 			font-weight: 400;
 			letter-spacing: 2px;
 			font-weight: 600;
 			margin-top: 320px;
-			position: absolute;
+			padding-bottom: 150px;
 		}
 			.cont__bnn1 h3 span{
 				color: #3d194a;
@@ -149,11 +146,14 @@ header{
 			.cont__bnn1 h3 img{
 				float: right;
 				margin-right:100px; 
+				max-width: 37%;
 			}
 			.cont__bnn1 a img{
-				z-index: -1;
-				position: absolute;
-				margin-top: 550px;
+				margin-left: 445px;
+				margin-bottom: 100px;
+				max-width: 7%;
+				width: 0;
+
 				opacity: 0.7;
 				-webkit-animation-duration:0.5s;
 				transition: all 0.5s ease;
@@ -171,7 +171,7 @@ header{
 				}
 .tab{
 	text-align: center;
-	margin-top: 50px;
+	margin-top: -50px;
 }
 	.tab h2{
 		font-size: 30px;
@@ -185,7 +185,7 @@ header{
 .banner-2{
 	padding-top: 100px;
 	color: #fff;
-	background: url(library/img/bg-2.png);
+	background: url(library/img/bg-2.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
@@ -242,7 +242,7 @@ header{
 .banner-3{
 	padding-top: 100px;
 	color: #fff;
-	background: url(library/img/bg-3.png);
+	background: url(library/img/bg-3.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
@@ -279,7 +279,7 @@ header{
 .banner-4{
 	padding-top: 100px;
 	color: #fff;
-	background: url(library/img/bg-4.png);
+	background: url(library/img/bg-4.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
@@ -317,7 +317,7 @@ header{
 .banner-5{
 	padding-top: 100px;
 	color: #fff;
-	background: url(library/img/bg-5.png);
+	background: url(library/img/bg-5.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
@@ -357,7 +357,7 @@ header{
 .banner-6{
 	padding-top: 100px;
 	color: #fff;
-	background: url(library/img/bg-6.png);
+	background: url(library/img/bg-6.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
@@ -396,7 +396,7 @@ header{
 .banner-7{
 	padding-top: 100px;
 	color: #fff;
-	background: url(library/img/bg-7.png);
+	background: url(library/img/bg-7.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
@@ -433,7 +433,7 @@ header{
 .banner-8{
 	padding-top: 100px;
 	color: #fff;
-	background: url(library/img/bg-8.png);
+	background: url(library/img/bg-8.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
@@ -470,7 +470,7 @@ header{
 .banner-9{
 	padding-top: 100px;
 	color: #fff;
-	background: url(library/img/bg-9.png);
+	background: url(library/img/bg-9.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
@@ -508,7 +508,7 @@ header{
 .banner-10{
 	padding-top: 100px;
 	color: #fff;
-	background: url(library/img/bg-10.png);
+	background: url(library/img/bg-10.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
@@ -545,7 +545,7 @@ header{
 .banner-11{
 	padding-top: 100px;
 	color: #fff;
-	background: url(library/img/bg-11.png);
+	background: url(library/img/bg-11.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
@@ -737,6 +737,12 @@ footer{}
 	font-size: 12px;
 }
 
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 img{
 	max-width: 100%;
