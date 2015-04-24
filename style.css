@@ -79,7 +79,7 @@ header{
 	text-decoration: none;
 	
 }
-.nav ul li a:hover{
+.nav ul li a:hover, .nav ul li a:focus, .nav ul li a:active{
 	background-color: #3d194a;
 	color: #ffffff;
 }
@@ -721,10 +721,11 @@ header{
 footer{}
 
 .copyright{
-    background: #000000;
+    background: #3D194A;
     font-size: 12px;
 	text-align: center;
 	color: #ffffff;
+	letter-spacing: 1px;
 }
 .copyright a{
     color: #ffffff;

@@ -95,6 +95,15 @@
 		</div>
 	 </div>
 
+	  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/bg-1-2.jpg">
+		<div class="container cont__bnn1">
+			<h3>VISITE <span>NUESTRA MODERNA SALA DE </span> EXHIBICIÓN<br>
+			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
+			</h3>
+			<a href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
+		</div>
+	 </div>
+
 </div>
 
 <!-- Seccion tab 2 -->
