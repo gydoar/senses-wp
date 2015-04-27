@@ -81,14 +81,14 @@
 		<div class="container cont__bnn1">
 			<h3>DISEÑO, <span>CALIDAD Y</span> SERVICIO <br>
 			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
-			</h3>
+			</h3><br>
 			<a href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
 		</div>
 	 </div>
 	 
 	 <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/bg-1-1.jpg">
 		<div class="container cont__bnn1">
-			<h3 style="color:#fff;"><span>LÍDERES</span> EN AUTOMATIZACIÓN, MONITORIZACIÓN Y DOMÓTICA<br>
+			<h3 style="color:#fff;">LÍDERES EN AUTOMATIZACIÓN, MONITORIZACIÓN Y DOMÓTICA<br>
 			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
 			</h3>
 			<a href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
@@ -97,7 +97,7 @@
 
 	  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/bg-1-2.jpg">
 		<div class="container cont__bnn1">
-			<h3>VISITE <span>NUESTRA MODERNA SALA DE </span> EXHIBICIÓN<br>
+			<h3>VISITE NUESTRA MODERNA SALA DE EXHIBICIÓN<br>
 			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
 			</h3>
 			<a href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
