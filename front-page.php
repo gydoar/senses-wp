@@ -38,7 +38,7 @@
     if(!isset($hasError)) {
         $emailTo = get_option('tz_email');
         if (!isset($emailTo) || ($emailTo == '') ){
-            $emailTo = get_option('admin_email');
+            $emailTo = 'sensescortinasdeco@gmail.com';
         }
         $subject = '[Contacto axemos] From '.$name;
         $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments";
