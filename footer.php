@@ -269,9 +269,13 @@
 <!-- Efectos scroll menu -->
 <script>
 	$(document).on("ready", main);
-
+	$(document).on("ready", scroll);
 	function main(){
 		$("#menu-header a").on("click", irA);
+	}
+
+	function scroll(){
+		$("#btn-scroll").on("click", irA);
 	}
 
 	function irA(){

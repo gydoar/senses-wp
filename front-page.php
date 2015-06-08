@@ -82,7 +82,7 @@
 			<h3>DISEÑO, <span>CALIDAD Y</span> SERVICIO <br>
 			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
 			</h3><br>
-			<a href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
+			<a id="btn-scroll" href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
 		</div>
 	 </div>
 	 
@@ -91,7 +91,7 @@
 			<h3 style="color:#fff;">LÍDERES EN AUTOMATIZACIÓN, MONITORIZACIÓN Y DOMÓTICA<br>
 			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
 			</h3>
-			<a href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
+			<a id="btn-scroll" href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
 		</div>
 	 </div>
 
@@ -100,7 +100,7 @@
 			<h3>VISITE NUESTRA MODERNA SALA DE EXHIBICIÓN<br>
 			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
 			</h3>
-			<a href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
+			<a id="btn-scroll" href="#enrollable"><img width="60" src="<?php bloginfo('template_url' ); ?>/library/img/icon-scroll.png" alt=""></a>
 		</div>
 	 </div>
 
@@ -549,7 +549,7 @@
 
 <!-- Contactenos -->
 
-<div class="map">
+<div class="map container">
 	<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/maps?q=4.72051,-74.052713&amp;num=1&amp;ie=UTF8&amp;ll=4.720071,-74.051585&amp;spn=0.001719,0.002411&amp;t=m&amp;z=14&amp;output=embed"></iframe>
 </div>
 
