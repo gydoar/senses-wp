@@ -19,6 +19,8 @@
 
 		<script type="text/javascript" src="<?php bloginfo('template_url' ); ?>/library/js/owl.carousel.js"></script>
 
+		<script type="text/javascript" src="<?php bloginfo('template_url' ); ?>/library/js/jquery.meanmenu.2.0.min.js"></script>
+
 <script>
 	jQuery(function($) {
 				function generatePages() {
@@ -312,6 +314,12 @@
 	 
 	});
 
+</script>
+
+<script>
+jQuery(document).ready(function () {
+    $('header nav').meanmenu();
+});
 </script>
 
 <!-- Scripts Adiconales -->
