@@ -115,25 +115,21 @@
 					<div class="slide">
 						<div class="text">
 							<h2>NOSOTROS</h2>
-							<p><strong>SENSES COTINAS Y DECORACIÓN</strong> es una empresa que ofrece  asesoría en la decoración de espacios y ambientes, manejando tres líneas principales como lo son; cortinas-persianas, paredes en 3 dimensiones,  piso laminado y en madera. <br><br>
-							Ponemos a disposición los sentidos en decoración para cada ambiente y cada personalidad, contando   con el respaldo de empresas de calidad,  las cuales suministran productos óptimos para el diseño.
-							</p>
+							<p><?php echo of_get_option('nosotros'); ?></p>
 						</div>
 					</div>
 					
 					<div class="slide">
 						<div class="text">
 							<h2>MISIÓN</h2>
-							<p><br>Senses ofrece a los clientes diseño, calidad  y servicio satisfaciendo sus necesidades, generando un ambiente agradable.
-							</p>
+							<p><p><?php echo of_get_option('mision'); ?></p></p>
 						</div>
 					</div>
 					
 					<div class="slide">
 						<div class="text">
 							<h2>VISIÓN</h2>
-							<p><br>Obtener el reconocimiento como la mejor alternativa en cortinas-persianas y decoración.
-							</p>
+							<p><p><?php echo of_get_option('vision'); ?></p></p>
 						</div>
 					</div>		
 				</div>

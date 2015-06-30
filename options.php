@@ -94,6 +94,39 @@ function optionsframework_options() {
 	$options = array();
 
 	$options[] = array(
+		'name' => __( 'INICIO', 'theme-textdomain' ),
+		'type' => 'heading'
+	);
+
+	$options[] = array(
+		'name' => __( 'Nosotros', 'theme-textdomain' ),
+		'desc' => __( 'Texto Nosotros', 'theme-textdomain' ),
+		'id' => 'nosotros',
+		'std' => '<strong>SENSES COTINAS Y DECORACIÓN</strong> es una empresa que ofrece  asesoría en la decoración de espacios y ambientes, manejando tres líneas principales como lo son; cortinas-persianas, paredes en 3 dimensiones,  piso laminado y en madera. <br><br>
+			Ponemos a disposición los sentidos en decoración para cada ambiente y cada personalidad, contando   con el respaldo de empresas de calidad,  las cuales suministran productos óptimos para el diseño.',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'Misión', 'theme-textdomain' ),
+		'desc' => __( 'Texto Misión', 'theme-textdomain' ),
+		'id' => 'mision',
+		'std' => '<br>Senses ofrece a los clientes diseño, calidad  y servicio satisfaciendo sus necesidades, generando un ambiente agradable.',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'Visión', 'theme-textdomain' ),
+		'desc' => __( 'Texto Visión', 'theme-textdomain' ),
+		'id' => 'vision',
+		'std' => '<br>Obtener el reconocimiento como la mejor alternativa en cortinas-persianas y decoración.',
+		'type' => 'textarea'
+	);
+
+	
+	//Footer
+
+	$options[] = array(
 		'name' => __( 'PIE DE PAGINA', 'theme-textdomain' ),
 		'type' => 'heading'
 	);
