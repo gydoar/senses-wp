@@ -648,18 +648,18 @@
 				<div class="ten columns">
 					<h4>CONTÁCTENOS</h4>
 					<ul class="contact">
-						<li><img width="15" src="<?php bloginfo('template_url' ); ?>/library/img/icon-map.png" alt="">Carrera 45 a 134 a 60, Prado Veraniego</li>
-						<li><img width="19" src="<?php bloginfo('template_url' ); ?>/library/img/icon-mail.png" alt=""><a href="mailto:ventas@sensescortinasdeco.com">ventas@sensescortinasdeco.com</a></li>
-						<li><img width="13" src="<?php bloginfo('template_url' ); ?>/library/img/icon-tel.png" alt="">+57 301 5477676  /  +57 445 2644</li>
+						<li><img width="15" src="<?php bloginfo('template_url' ); ?>/library/img/icon-map.png" alt=""><?php echo of_get_option('direccion'); ?></li>
+						<li><img width="19" src="<?php bloginfo('template_url' ); ?>/library/img/icon-mail.png" alt=""><a href="mailto:<?php echo of_get_option('email'); ?>"><?php echo of_get_option('email'); ?></a></li>
+						<li><img width="13" src="<?php bloginfo('template_url' ); ?>/library/img/icon-tel.png" alt=""><?php echo of_get_option('telefono'); ?></li>
 					</ul>
 				</div>
 				<div class="two columns">
 					<ul class="icon-social">
-						<li><a target="new" href="https://www.facebook.com/pages/Senses-Cortinas-y-Decoración/1552745068342412"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt=""></a></li>
+						<li><a target="new" href="<?php echo of_get_option('facebook'); ?>"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-facebook.png" alt=""></a></li>
 						
-						<li><a target="new" href="https://twitter.com/sensesdeco"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt=""></a></li>
+						<li><a target="new" href="<?php echo of_get_option('twitter'); ?>"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-twitter.png" alt=""></a></li>
 
-						<li><a target="new" href="https://es.pinterest.com/sensescd/"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-pinterest.png" alt=""></a></li>
+						<li><a target="new" href="<?php echo of_get_option('pinterest'); ?>"><img width="35" src="<?php bloginfo('template_url' ); ?>/library/img/icon-pinterest.png" alt=""></a></li>
 					</ul>
 				</div>
 				

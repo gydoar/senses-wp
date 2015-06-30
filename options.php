@@ -94,19 +94,57 @@ function optionsframework_options() {
 	$options = array();
 
 	$options[] = array(
-		'name' => __( 'INICIO', 'theme-textdomain' ),
+		'name' => __( 'PIE DE PAGINA', 'theme-textdomain' ),
 		'type' => 'heading'
 	);
 
 	$options[] = array(
-		'name' => __( 'Example', 'theme-textdomain' ),
-		'desc' => __( 'A mini text input field.', 'theme-textdomain' ),
-		'id' => 'example',
-		'std' => 'Default',
-		'class' => 'mini',
+		'name' => __( 'Dirección', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'direccion',
+		'std' => 'Carrera 45 a 134 a 60, Prado Veraniego',
 		'type' => 'text'
 	);
 
+	$options[] = array(
+		'name' => __( 'Email', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'email',
+		'std' => 'ventas@sensescortinasdeco.com',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Teléfono', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'telefono',
+		'std' => '+57 301 5477676 / +57 445 2644',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Link Facebook', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'facebook',
+		'std' => 'https://www.facebook.com/pages/SENSES-Cortinas-y-Decoraci%C3%B3n/1552745068342412',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Link Twitter', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'twitter',
+		'std' => 'https://twitter.com/sensesdeco',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Link Pinterest', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'pinterest',
+		'std' => 'https://es.pinterest.com/sensescd/',
+		'type' => 'text'
+	);
 	
 	return $options;
 }
