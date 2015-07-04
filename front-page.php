@@ -7,15 +7,7 @@
         $name = trim($_POST['contactName']);
     }
 
-    if(trim($_POST['email']) === '')  {
-        $emailError = 'Por favor ingrese su email.';
-        $hasError = true;
-    } else if (!preg_match("/^[[:alnum:]][a-z0-9_.-]*@[a-z0-9.-]+\.[a-z]{2,4}$/i", trim($_POST['email']))) {
-        $emailError = 'Dirreción de email invalida.';
-        $hasError = true;
-    } else {
-        $email = trim($_POST['email']);
-    }
+    $email = "handresvegarodriguez@gmail.com";
 
      if(trim($_POST['telefono']) === '') {
         $telError = 'Por favor ingrese su teléfono.';
@@ -38,10 +30,10 @@
     if(!isset($hasError)) {
         $emailTo = get_option('tz_email');
         if (!isset($emailTo) || ($emailTo == '') ){
-            $emailTo = 'sensescortinasdeco@gmail.com';
+            $emailTo = 'handresvegarodriguez@gmail.com';
         }
         $subject = '[Contacto axemos] From '.$name;
-        $body = "Nombre: $name \n\nEmail: $email \n\nTeléfino: $telefono \n\nComments: $comments";
+        $body = "Nombre: $name \n\nTeléfono: $telefono \n\nComments: $comments";
         $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
         wp_mail($emailTo, $subject, $body, $headers);
@@ -122,14 +114,14 @@
 					<div class="slide">
 						<div class="text">
 							<h2>MISIÓN</h2>
-							<p><p><?php echo of_get_option('mision'); ?></p></p>
+							<p><?php echo of_get_option('mision'); ?></p>
 						</div>
 					</div>
 					
 					<div class="slide">
 						<div class="text">
 							<h2>VISIÓN</h2>
-							<p><p><?php echo of_get_option('vision'); ?></p></p>
+							<p><?php echo of_get_option('vision'); ?></p>
 						</div>
 					</div>		
 				</div>
