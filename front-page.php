@@ -144,17 +144,7 @@
 	<div class="container">
 		<div class="five columns">
 			<h3 class="four columns">ENROLLABLE</h3><br><br><br>
-			<p>Este es un sistema práctico y moderno, consta de un eje 100% en aluminio, ensamblado con un engranaje que permite dar control al paso de luz según se prefiera; se fabrica con el material que ofrezca el nivel de privacidad deseado (transparente, trasluz, opaco, blackout).
-			<br><br>
-			Todas las cortinas y persianas se pueden automatizar. </p>
-			<br><br>
-			<li>Practico para mantenimiento y limpieza.</li>
-			<li>Se emplea para ventanas altas.</li>
-			<li>Genera ambientes sobrios.</li>
-			<li>Materiales con propiedades de protección solar.</li>
-			<li>Tejidos con diferentes porcentajes de paso de luz.</li>
-			<li>Un portafolio con más de 2.500 referencias entre 
-				sintéticos y fibras.</li>
+			<?php echo of_get_option('enrro_des'); ?>
 		</div>
 	</div>
 	
@@ -165,9 +155,9 @@
 	<h3><img width="46" src="<?php bloginfo('template_url' ); ?>/library/img/icon-enrollable.png" alt="">&nbsp;&nbsp;ENROLABLE</h3>
 
 	<p>
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/01-big.png" data-fancybox-group="gallery1"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/01.png" alt="" /></a>
+		<a class="fancybox" href="<?php echo of_get_option('enrro_1'); ?>" data-fancybox-group="gallery1"><img width="300" src="<?php echo of_get_option('enrro_1'); ?>" alt="" /></a>
 
-		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/02-big.png" data-fancybox-group="gallery1"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/02.png" alt="" /></a>
+		<a class="fancybox" href="<?php echo of_get_option('enrro_2'); ?>" data-fancybox-group="gallery1"><img width="300" src="<?php echo of_get_option('enrro_2'); ?>" alt="" /></a>
 
 		<a class="fancybox" href="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/03-big.png" data-fancybox-group="gallery1"><img width="300" src="<?php bloginfo('template_url' ); ?>/library/img/persianas/enrollable/03.png" alt="" /></a>
 
@@ -179,7 +169,7 @@
 
 	</p>
 	
-	<a class="btn__vermas" target="new" href="https://es.pinterest.com/sensescd/cortinas-y-persianas/">Ver más</a>
+	<a class="btn__vermas" target="new" href="<?php echo of_get_option('enrro_link'); ?>">Ver más</a>
 </div>
 
 

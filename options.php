@@ -123,6 +123,54 @@ function optionsframework_options() {
 		'type' => 'textarea'
 	);
 
+	// Secciones
+	$options[] = array(
+		'name' => __( 'ENRROLLABLE', 'theme-textdomain' ),
+		'type' => 'heading'
+	);
+	
+	$options[] = array(
+		'name' => __( 'Descripción', 'theme-textdomain' ),
+		'desc' => __( 'Descripción de la seccion', 'theme-textdomain' ),
+		'id' => 'enrro_des',
+		'std' => '<p>Este es un sistema práctico y moderno, consta de un eje 100% en aluminio, ensamblado con un engranaje que permite dar control al paso de luz según se prefiera; se fabrica con el material que ofrezca el nivel de privacidad deseado (transparente, trasluz, opaco, blackout).
+			<br><br>
+			Todas las cortinas y persianas se pueden automatizar. </p>
+			<br><br>
+			<li>Practico para mantenimiento y limpieza.</li>
+			<li>Se emplea para ventanas altas.</li>
+			<li>Genera ambientes sobrios.</li>
+			<li>Materiales con propiedades de protección solar.</li>
+			<li>Tejidos con diferentes porcentajes de paso de luz.</li>
+			<li>Un portafolio con más de 2.500 referencias entre 
+				sintéticos y fibras.</li>',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 1', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño 624 x 400 px', 'theme-textdomain' ),
+		'id' => 'enrro_1',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'IMG 2', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño 624 x 400 px', 'theme-textdomain' ),
+		'id' => 'enrro_2',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'LINK VER MÁS', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'enrro_link',
+		'std' => 'https://es.pinterest.com/sensescd/cortinas-y-persianas/',
+		'type' => 'text'
+	);
+
 	
 	//Footer
 
