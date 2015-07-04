@@ -7,8 +7,6 @@
         $name = trim($_POST['contactName']);
     }
 
-    $email = echo of_get_option('email');
-
      if(trim($_POST['telefono']) === '') {
         $telError = 'Por favor ingrese su teléfono.';
         $hasError = true;
@@ -30,7 +28,7 @@
     if(!isset($hasError)) {
         $emailTo = get_option('tz_email');
         if (!isset($emailTo) || ($emailTo == '') ){
-            $emailTo =  echo of_get_option('email');
+            $emailTo = 'ventas@sensescortinasdeco.com';
         }
         $subject = '[Contacto Senses] From '.$name;
         $body = "Nombre: $name \n\nTeléfono: $telefono \n\nMensaje: $comments";
