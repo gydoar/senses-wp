@@ -99,6 +99,30 @@ function optionsframework_options() {
 	);
 
 	$options[] = array(
+		'name' => __( 'BANNER 1', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño 1500 x 838 px', 'theme-textdomain' ),
+		'id' => 'banner-1',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'BANNER 2', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño 1500 x 838 px', 'theme-textdomain' ),
+		'id' => 'banner-2',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'BANNER 3', 'theme-textdomain' ),
+		'desc' => __( 'Tamaño 1500 x 838 px', 'theme-textdomain' ),
+		'id' => 'banner-3',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
 		'name' => __( 'Nosotros', 'theme-textdomain' ),
 		'desc' => __( 'Texto Nosotros', 'theme-textdomain' ),
 		'id' => 'nosotros',

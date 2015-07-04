@@ -67,7 +67,7 @@
 
 <div id="owl-demo" class="owl-carousel owl-theme">
  
-	 <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/bg-1.jpg">
+	 <div class="item"><img src="<?php echo of_get_option('banner-1'); ?>">
 		<div class="container cont__bnn1">
 			<h3>DISEÑO, <span>CALIDAD Y</span> SERVICIO <br>
 			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
@@ -76,7 +76,7 @@
 		</div>
 	 </div>
 	 
-	 <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/bg-1-1.jpg">
+	 <div class="item"><img src="<?php echo of_get_option('banner-2'); ?>">
 		<div class="container cont__bnn1">
 			<h3 style="color:#fff;">LÍDERES EN AUTOMATIZACIÓN, MONITORIZACIÓN Y DOMÓTICA<br>
 			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
@@ -85,7 +85,7 @@
 		</div>
 	 </div>
 
-	  <div class="item"><img src="<?php bloginfo('template_url' ); ?>/library/img/bg-1-2.jpg">
+	  <div class="item"><img src="<?php echo of_get_option('banner-3'); ?>">
 		<div class="container cont__bnn1">
 			<h3>VISITE NUESTRA MODERNA SALA DE EXHIBICIÓN<br>
 			<img src="<?php bloginfo('template_url' ); ?>/library/img/sent-decoracion.png" alt="">
