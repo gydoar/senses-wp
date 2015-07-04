@@ -7,7 +7,7 @@
         $name = trim($_POST['contactName']);
     }
 
-    $email = "handresvegarodriguez@gmail.com";
+    $email = echo of_get_option('email');
 
      if(trim($_POST['telefono']) === '') {
         $telError = 'Por favor ingrese su teléfono.';
@@ -30,10 +30,10 @@
     if(!isset($hasError)) {
         $emailTo = get_option('tz_email');
         if (!isset($emailTo) || ($emailTo == '') ){
-            $emailTo = 'handresvegarodriguez@gmail.com';
+            $emailTo =  echo of_get_option('email');
         }
-        $subject = '[Contacto axemos] From '.$name;
-        $body = "Nombre: $name \n\nTeléfono: $telefono \n\nComments: $comments";
+        $subject = '[Contacto Senses] From '.$name;
+        $body = "Nombre: $name \n\nTeléfono: $telefono \n\nMensaje: $comments";
         $headers = 'From: '.$name.' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
         wp_mail($emailTo, $subject, $body, $headers);
